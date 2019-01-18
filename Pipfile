@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tornado = "*"
+peewee = "*"
+pymysql = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.7"
